@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "super-email-manager",
+  "description": "AI-powered email workflow for Claude Code: sync, read, discuss strategy, draft and send emails with full thread context",
+  "owner": {
+    "name": "Leo",
+    "url": "https://github.com/HynLcc"
+  },
+  "plugins": [
+    {
+      "name": "super-email",
+      "description": "Manage emails with AI: sync inbox, read threads, discuss strategy in your language, draft and send professional replies",
+      "version": "1.0.0",
+      "author": {
+        "name": "Leo",
+        "url": "https://github.com/HynLcc"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/HynLcc/super-email-manager"
+    }
+  ]
+}

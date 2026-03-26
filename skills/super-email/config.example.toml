@@ -1,0 +1,49 @@
+# Super Email Manager Configuration
+# Copy this file to config.toml and fill in your details:
+#   cp config.example.toml config.toml
+
+[user]
+# Your display name and email (used in From header and signature)
+name = "Your Name"
+title = "Your Title"
+company = "Your Company"
+email = "you@example.com"
+
+# Default CC address for all outgoing emails (use --no-cc to skip)
+# Leave empty to disable default CC.
+cc = ""
+
+[himalaya]
+# Your himalaya account name (as configured in ~/.config/himalaya/config.toml)
+account = "work"
+
+[email]
+# All email addresses belonging to your organization.
+# Used to distinguish incoming vs outgoing emails in thread.md.
+our_addresses = [
+    "you@example.com",
+    "team@example.com",
+]
+
+[imap]
+# IMAP folders to sync. Common values:
+#   Gmail:   ["INBOX", "[Gmail]/Sent Mail"]
+#   Outlook: ["INBOX", "Sent Items"]
+#   Generic: ["INBOX", "Sent"]
+#   Feishu:  ["INBOX", "已发送"]
+folders = ["INBOX", "Sent"]
+
+[signature]
+# Closing line before the sender name (e.g. "Best regards," / "Thanks," / "Cheers,")
+closing = "Best regards,"
+
+# HTML signature appended after the sender name block.
+# Leave empty for no logo/branding block.
+# Example with a company logo:
+# html = """
+# <table cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,sans-serif;">
+# <tr><td style="padding:0 0 8px 0;"><img src="https://example.com/logo.png" alt="Logo" width="38" height="38" style="display:block;border-radius:8px;" /></td></tr>
+# <tr><td style="padding:0;font-size:13px;color:#333;">Your Company Tagline</td></tr>
+# </table>
+# """
+html = ""
