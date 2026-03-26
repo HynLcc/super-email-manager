@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "super-email-manager",
+  "name": "super-email",
   "description": "AI-powered email workflow for Claude Code: sync, read, discuss strategy, draft and send emails with full thread context",
   "owner": {
     "name": "Leo",
@@ -17,7 +17,7 @@
       },
       "source": "./",
       "category": "productivity",
-      "homepage": "https://github.com/HynLcc/super-email-manager"
+      "homepage": "https://github.com/HynLcc/super-email-skill"
     }
   ]
 }

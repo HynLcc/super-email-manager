@@ -1,4 +1,4 @@
-# Super Email Manager
+# Super Email Skill
 
 <p align="center">
   <img src="assets/hero.jpg" alt="Super Email Manager — AI-Powered Email Workflow" width="800">
@@ -79,15 +79,15 @@ This turns email from a black hole into an auditable, searchable, AI-readable ar
 ## Getting Started
 
 ```
-/plugin marketplace add HynLcc/super-email-manager
-/plugin install super-email@super-email-manager
+/plugin marketplace add HynLcc/super-email-skill
+/plugin install super-email@super-email-skill
 ```
 
 Or manually:
 
 ```bash
-git clone https://github.com/HynLcc/super-email-manager.git
-cp -r super-email-manager/skills/super-email ~/.claude/skills/super-email
+git clone https://github.com/HynLcc/super-email-skill.git
+cp -r super-email-skill/skills/super-email ~/.claude/skills/super-email
 cd ~/.claude/skills/super-email
 cp config.example.toml config.toml
 ```
